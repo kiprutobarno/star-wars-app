@@ -1,28 +1,18 @@
 type People {
-  page: String!
-  next: String!
+  next: String
+  count: ID!
   previous: String
-  allResults: [AllResults]!
+  results: [Result]
 }
-type AllResults {
-  name: String!
-  height: Int
-  mass: String
-  gender: String!
-  homeworld: String!
-}
-type Person {
-  Results: [Results]
-}
-type Results {
+
+type Result {
   name: String
-  height: Int
+  height: String
   mass: String
   gender: String
   homeworld: String
 }
 
 type Query {
-  people(page: String!): People
-  person(name: String): Person
+  people(page: ID!): People
 }
