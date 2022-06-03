@@ -26,4 +26,11 @@ public class PeopleQueryResolver implements GraphQLQueryResolver {
     public People getPeoplePerPage(int page) {
         return service.getPeople(page);
     }
+
+    /*
+     * Get people per page query resolver method
+     */
+    public People getPeopleByName(String name) {
+        return service.getPeople(name);
+    }
 }
