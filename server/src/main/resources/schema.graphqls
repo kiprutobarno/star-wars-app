@@ -15,4 +15,5 @@ type Result {
 
 type Query {
   getAllPeople: People
+  getPeoplePerPage(page: ID!): People
 }

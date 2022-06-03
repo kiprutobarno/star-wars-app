@@ -14,8 +14,22 @@ public class PeopleService {
     RestTemplate restTemplate;
     private static final String URI = "https://swapi.dev/api/people/";
 
+    /*
+     * Get All people service method
+     */
     public People getPeople() {
         return restTemplate.exchange(URI, HttpMethod.GET, null,
+                new ParameterizedTypeReference<People>() {
+
+                }).getBody();
+    }
+
+    /*
+     * Use method overloading(polymorphism)
+     * Get people per page service method
+     */
+    public People getPeople(int page) {
+        return restTemplate.exchange(URI + "?page=" + page, HttpMethod.GET, null,
                 new ParameterizedTypeReference<People>() {
 
                 }).getBody();
