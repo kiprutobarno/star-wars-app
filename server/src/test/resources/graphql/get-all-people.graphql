@@ -1,0 +1,12 @@
+query {
+  getAllPeople {
+    next
+    results {
+      name
+      height
+      mass
+      gender
+      homeworld
+    }
+  }
+}
