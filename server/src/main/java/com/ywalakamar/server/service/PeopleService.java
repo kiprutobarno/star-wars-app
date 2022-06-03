@@ -34,4 +34,15 @@ public class PeopleService {
 
                 }).getBody();
     }
+
+    /*
+     * Use method overloading(polymorphism)
+     * Search person by name service method
+     */
+    public People getPeople(String name) {
+        return restTemplate.exchange(URI + "?search=" + name, HttpMethod.GET, null,
+                new ParameterizedTypeReference<People>() {
+
+                }).getBody();
+    }
 }
