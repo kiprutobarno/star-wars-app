@@ -14,5 +14,5 @@ type Result {
 }
 
 type Query {
-  people(page: ID!): People
+  getAllPeople: People
 }

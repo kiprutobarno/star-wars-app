@@ -14,8 +14,8 @@ public class PeopleService {
     RestTemplate restTemplate;
     private static final String URI = "https://swapi.dev/api/people/";
 
-    public People getPeople(int page) {
-        return restTemplate.exchange(URI + "?page=" + page, HttpMethod.GET, null,
+    public People getPeople() {
+        return restTemplate.exchange(URI, HttpMethod.GET, null,
                 new ParameterizedTypeReference<People>() {
 
                 }).getBody();
