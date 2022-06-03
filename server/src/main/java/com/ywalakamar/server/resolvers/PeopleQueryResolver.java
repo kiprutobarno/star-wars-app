@@ -13,7 +13,7 @@ public class PeopleQueryResolver implements GraphQLQueryResolver {
     @Autowired
     PeopleService service;
 
-    public People people(int page) {
-        return service.getPeople(page);
+    public People getAllPeople() {
+        return service.getPeople();
     }
 }
