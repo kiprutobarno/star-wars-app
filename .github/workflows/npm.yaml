@@ -1,8 +1,6 @@
 name: Angular CI with NPM
 
 on:
-  push:
-    branches: [develop]
   pull_request:
     branches: [develop]
 
@@ -13,32 +11,40 @@ jobs:
       run:
         working-directory: client
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
       - uses: actions/checkout@v3
-      - name: Set Up Node ${{ matrix.node-version }}
-      - uses: actions/setup-node@v3
+      - name: Set Up Node
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Cache Node Modules
-        id: cache-npm
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-
+          node-version: "16"
+          cache: "npm"
       - name: Install Dependencies
-        run: npm ci
-
+      - run: npm ci
       - name: Build
-        run: npm run build --if-present
+      - run: npm run build --if-present
+
+    # steps:
+    #   - uses: actions/checkout@v3
+    #   - name: Set Up Node ${{ matrix.node }}
+    #   - uses: actions/setup-node@v3
+    #     with:
+    #       node-version: ${{ matrix.node }}
+
+    #   - name: Cache Node Modules
+    #     id: cache-npm
+    #     uses: actions/cache@v3
+    #     env:
+    #       cache-name: cache-node-modules
+    #     with:
+    #       path: ~/.npm
+    #       key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+    #       restore-keys: |
+    #         ${{ runner.os }}-build-${{ env.cache-name }}-
+    #         ${{ runner.os }}-build-
+    #         ${{ runner.os }}-
+
+    #   - name: Install Dependencies
+    #     run: npm ci
+
+    #   - name: Build
+    #     run: npm run build --if-present
