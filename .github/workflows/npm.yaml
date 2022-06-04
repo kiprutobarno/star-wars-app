@@ -11,16 +11,24 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: client
+        working-directory: ./client
 
     strategy:
       matrix:
         node-version: [16.x]
 
     steps:
+<<<<<<< Updated upstream
       - uses: actions/checkout@v3
       - name: Set Up Node ${{ matrix.node-version }}
       - uses: actions/setup-node@v3
+=======
+      - use
+  push:
+    branches: [develop]s: actions/checkout@v3
+      - name: Set Up Node
+        uses: actions/setup-node@v3
+>>>>>>> Stashed changes
         with:
           node-version: ${{ matrix.node-version }}
 
