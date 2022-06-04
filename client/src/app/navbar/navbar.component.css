@@ -1,0 +1,30 @@
+.navbar {
+    padding: 8px 16px;
+    background-color: #dd4814;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 4rem;
+  }
+  
