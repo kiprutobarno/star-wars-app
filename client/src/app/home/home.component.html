@@ -1,4 +1,4 @@
-<div class="home">
+<div class="beautify">
   <table>
     <caption>
       People Table
@@ -11,11 +11,17 @@
       <th>Homeworld</th>
     </tr>
     <tr *ngFor="let result of results">
-      <td>{{ result.name }}</td>
+      <td>
+        <a [routerLink]="['/details']" [queryParams]="{ name: result.name }">{{
+          result.name
+        }}</a>
+      </td>
       <td>{{ result.gender }}</td>
       <td>{{ result.height }}</td>
       <td>{{ result.mass }}</td>
-      <td>{{ result.homeworld }}</td>
+      <td>
+        <a href="{{ result.homeworld }}">{{ result.homeworld }}</a>
+      </td>
     </tr>
   </table>
   <div class="pager">
