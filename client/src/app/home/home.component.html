@@ -1,1 +1,21 @@
-<h1>Consuming Star Wars GraphQL API with Angular</h1>
+<div class="home">
+  <table>
+    <caption>
+      People Table
+    </caption>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Height</th>
+      <th>Mass</th>
+      <th>Homeworld</th>
+    </tr>
+    <tr *ngFor="let result of results">
+      <td>{{ result.name }}</td>
+      <td>{{ result.gender }}</td>
+      <td>{{ result.height }}</td>
+      <td>{{ result.mass }}</td>
+      <td>{{ result.homeworld }}</td>
+    </tr>
+  </table>
+</div>
