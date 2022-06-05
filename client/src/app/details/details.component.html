@@ -1,0 +1,19 @@
+<div class="beautify">
+  <table>
+    <caption></caption>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Height</th>
+      <th>Mass</th>
+      <th>Homeworld</th>
+    </tr>
+    <tr *ngFor="let person of results">
+      <td>{{ person.name }}</td>
+      <td>{{ person.gender }}</td>
+      <td>{{ person.height }}</td>
+      <td>{{ person.mass }}</td>
+      <td><a href="{{ person.homeworld }}">{{ person.homeworld }}</a></td>
+    </tr>
+  </table>
+</div>

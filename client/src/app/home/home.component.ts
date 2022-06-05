@@ -6,6 +6,8 @@ import { PeopleService } from '../people.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
+
+
 export class HomeComponent implements OnInit {
   constructor(private service: PeopleService) {}
 
@@ -17,25 +19,42 @@ export class HomeComponent implements OnInit {
     await this.updatePeople();
   }
 
+  /**
+   * update people's result data on the table
+   */
   async updatePeople() {
     this.people = await this.service.getPaginatedPages(this.page + 1);
     this.results = this.people.results;
     this.count = this.people.count;
-    console.log(this.results.length);
   }
 
+  /**
+   * determine whether to show previous button
+   * @returns int
+   */
   showPrevious() {
     return this.page > 0;
   }
 
+  /**
+   * determine whether to show next button
+   * @returns int
+   */
   showNext() {
     return this.page + this.results.length < this.count;
   }
 
+  /**
+   * updates people data on clicking previous button
+   */
   async onPrevious() {
     this.page -= 1;
     await this.updatePeople();
   }
+
+  /**
+   * updates people data on clicking next button
+   */
   async onNext() {
     this.page += 1;
     await this.updatePeople();

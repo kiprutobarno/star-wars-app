@@ -6,9 +6,9 @@ import { People } from 'src/model/people';
  * Typescript type declared to represent query results
  */
 
-const people = gql`
-  query {
-    getAllPeople {
+const pages = gql`
+  query getPeoplePerPage($page: Int!) {
+    getPeoplePerPage(page: $page) {
       results {
         name
         gender
@@ -20,9 +20,9 @@ const people = gql`
   }
 `;
 
-const pages = gql`
-  query getPeoplePerPage($page: Int!) {
-    getPeoplePerPage(page: $page) {
+const search = gql`
+  query getPeopleByName($name: String!) {
+    getPeopleByName(name: $name) {
       next
       count
       results {
@@ -40,24 +40,38 @@ const pages = gql`
   providedIn: 'root',
 })
 export class PeopleService {
-  private peopleQuery: QueryRef<{ getAllPeople: People[] }>;
   private paginationQuery: QueryRef<{ getPeoplePerPage: People[] }>;
+  private searchQuery: QueryRef<{ getPeopleByName: People[] }>;
+
   constructor(private apollo: Apollo) {
-    this.peopleQuery = this.apollo.watchQuery<any>({
-      query: people,
-    });
     this.paginationQuery = this.apollo.watchQuery<any>({
       query: pages,
     });
+    this.searchQuery = this.apollo.watchQuery<any>({
+      query: search,
+    });
   }
 
-  async getAllPeople(): Promise<People[]> {
-    const result = await this.peopleQuery.refetch();
-    return result.data.getAllPeople;
-  }
-
+  /**
+   *
+   * Get people per page
+   *
+   * @param page int
+   * @returns People
+   */
   async getPaginatedPages(page: number) {
     const result = await this.paginationQuery.refetch({ page });
     return result.data.getPeoplePerPage;
+  }
+
+  /**
+   *
+   * Search for a person using name
+   * @param name string
+   * @returns People
+   */
+  async searchPerson(name: string) {
+    const result = await this.searchQuery.refetch({ name });
+    return result.data.getPeopleByName;
   }
 }
