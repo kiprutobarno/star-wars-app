@@ -18,4 +18,10 @@
       <td>{{ result.homeworld }}</td>
     </tr>
   </table>
+  <div class="pager">
+    <button class="prev" *ngIf="showPrevious()" (click)="onPrevious()">
+      prev
+    </button>
+    <button class="next" *ngIf="showNext()" (click)="onNext()">next</button>
+  </div>
 </div>
