@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Apollo, gql, QueryRef } from 'apollo-angular';
 import { People } from 'src/model/people';
-import { Result } from 'src/model/result';
 
 /*
  * Typescript type declared to represent query results

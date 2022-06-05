@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Apollo, gql, QueryRef } from 'apollo-angular';
-import { People } from 'src/model/people';
-import { Result } from 'src/model/result';
 import { PeopleService } from '../people.service';
 
 @Component({
@@ -12,13 +9,10 @@ import { PeopleService } from '../people.service';
 export class HomeComponent implements OnInit {
   constructor(private service: PeopleService) {}
 
-  people: People[] = [];
-  result: Result[] = [];
+  people: any = [];
+  results: any = [];
   async ngOnInit(): Promise<void> {
     this.people = await this.service.getAllPeople();
-    // this.people.map((item) => {
-    //   console.log(item);
-    // });
-    console.log(this.people.results);
+    this.results = this.people.results;
   }
 }
