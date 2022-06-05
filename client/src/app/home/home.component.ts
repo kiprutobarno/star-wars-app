@@ -11,8 +11,33 @@ export class HomeComponent implements OnInit {
 
   people: any = [];
   results: any = [];
+  page: number = 0;
+  count: number = 0;
   async ngOnInit(): Promise<void> {
-    this.people = await this.service.getAllPeople();
+    await this.updatePeople();
+  }
+
+  async updatePeople() {
+    this.people = await this.service.getPaginatedPages(this.page + 1);
     this.results = this.people.results;
+    this.count = this.people.count;
+    console.log(this.results.length);
+  }
+
+  showPrevious() {
+    return this.page > 0;
+  }
+
+  showNext() {
+    return this.page + this.results.length < this.count;
+  }
+
+  async onPrevious() {
+    this.page -= 1;
+    await this.updatePeople();
+  }
+  async onNext() {
+    this.page += 1;
+    await this.updatePeople();
   }
 }
