@@ -57,7 +57,7 @@ The appliction can be accessed via [Star Wars](https://star-wars-client-app.hero
 
 
 ### Client
-- For client or front end, navigate to the ```client``` directory: ```cd client```
+- For client or frontend, navigate to the ```client``` directory: ```cd client```
 - From the terminal, install dependencies by running: ```npm install```
 - Launch the server by executing: ```npm start```
 - Using your browser, access the frontend via the URL ```http://localhost:8080/```
