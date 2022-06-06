@@ -2,10 +2,10 @@
 # https://github.com/firebase/firebase-tools
 
 name: Client CD
-'on': pull_request
+"on": pull_request
 jobs:
   build_and_preview:
-    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+    if: "${{ github.event.pull_request.head.repo.full_name == github.repository }}"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -13,6 +13,7 @@ jobs:
         working-directory: client
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STAR_WARS_CLIENT_852A6 }}'
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_STAR_WARS_CLIENT_852A6 }}"
           projectId: star-wars-client-852a6
+          path: "/client"
