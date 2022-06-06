@@ -1,0 +1,20 @@
+type People {
+  next: String
+  count: Int!
+  previous: String
+  results: [Result]
+}
+
+type Result {
+  name: String
+  height: String
+  mass: String
+  gender: String
+  homeworld: String
+}
+
+type Query {
+  getAllPeople: People
+  getPeoplePerPage(page: Int!): People
+  getPeopleByName(name: String!): People
+}

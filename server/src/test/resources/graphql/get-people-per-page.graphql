@@ -1,0 +1,12 @@
+query {
+  getPeoplePerPage(page:1) {
+    next
+    results {
+      name
+      height
+      mass
+      gender
+      homeworld
+    }
+  }
+}

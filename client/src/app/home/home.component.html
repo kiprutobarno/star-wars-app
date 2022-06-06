@@ -1,0 +1,33 @@
+<div class="beautify">
+  <table>
+    <caption>
+      People Table
+    </caption>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Height</th>
+      <th>Mass</th>
+      <th>Homeworld</th>
+    </tr>
+    <tr *ngFor="let result of results">
+      <td>
+        <a [routerLink]="['/details']" [queryParams]="{ name: result.name }">{{
+          result.name
+        }}</a>
+      </td>
+      <td>{{ result.gender }}</td>
+      <td>{{ result.height }}</td>
+      <td>{{ result.mass }}</td>
+      <td>
+        <a href="{{ result.homeworld }}">{{ result.homeworld }}</a>
+      </td>
+    </tr>
+  </table>
+  <div class="pager">
+    <button class="prev" *ngIf="showPrevious()" (click)="onPrevious()">
+      prev
+    </button>
+    <button class="next" *ngIf="showNext()" (click)="onNext()">next</button>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+query {
+  getPeopleByName(name:"Jane Doe") {
+    next
+    results {
+      name
+      height
+      mass
+      gender
+      homeworld
+    }
+  }
+}
