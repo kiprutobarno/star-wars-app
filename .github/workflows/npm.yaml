@@ -30,6 +30,7 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: client
+      - name: Deploy
         uses: w9jds/firebase-action@master
         with:
           args: deploy
