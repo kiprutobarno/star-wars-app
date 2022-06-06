@@ -8,12 +8,17 @@
       <th>Mass</th>
       <th>Homeworld</th>
     </tr>
-    <tr *ngFor="let person of results">
+    <tr *ngFor="let person of searchresults">
       <td>{{ person.name }}</td>
       <td>{{ person.gender }}</td>
       <td>{{ person.height }}</td>
       <td>{{ person.mass }}</td>
-      <td><a href="{{ person.homeworld }}">{{ person.homeworld }}</a></td>
+      <td>
+        <a href="{{ person.homeworld }}">{{ person.homeworld }}</a>
+      </td>
     </tr>
   </table>
+  <div class="pager">
+    <button class="prev" (click)="backClicked()">Back</button>
+  </div>
 </div>

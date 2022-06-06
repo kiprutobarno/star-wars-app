@@ -9,6 +9,8 @@ import { People } from 'src/model/people';
 const pages = gql`
   query getPeoplePerPage($page: Int!) {
     getPeoplePerPage(page: $page) {
+      count
+      next
       results {
         name
         gender
@@ -23,8 +25,6 @@ const pages = gql`
 const search = gql`
   query getPeopleByName($name: String!) {
     getPeopleByName(name: $name) {
-      next
-      count
       results {
         name
         gender

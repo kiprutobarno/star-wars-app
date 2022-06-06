@@ -6,8 +6,6 @@ import { PeopleService } from '../people.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
-
-
 export class HomeComponent implements OnInit {
   constructor(private service: PeopleService) {}
 
@@ -30,7 +28,7 @@ export class HomeComponent implements OnInit {
 
   /**
    * determine whether to show previous button
-   * @returns int
+   * @returns boolean
    */
   showPrevious() {
     return this.page > 0;
@@ -38,7 +36,7 @@ export class HomeComponent implements OnInit {
 
   /**
    * determine whether to show next button
-   * @returns int
+   * @returns boolean
    */
   showNext() {
     return this.page + this.results.length < this.count;
