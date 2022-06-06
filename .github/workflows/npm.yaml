@@ -1,4 +1,4 @@
-name: Angular CI with NPM
+name: Frontend
 
 on:
   push:
