@@ -1,4 +1,4 @@
-name: Angular CI with NPM
+name: Frontend CI/CD
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Deploy to Firebase
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,6 +33,12 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         working-directory: client
-      - name: Build
-        run: npm run build
+      - name: Build for Production
+        run: npm run buildProd
         working-directory: client
+      - name: Build for Production
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
