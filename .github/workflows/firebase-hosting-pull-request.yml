@@ -10,10 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: npm ci && npm run build
-        working-directory: client
       - uses: FirebaseExtended/action-hosting-deploy@v0
+        env:
+          PROJECT_PATH: ./client
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_STAR_WARS_CLIENT_852A6 }}"
           projectId: star-wars-client-852a6
-          path: "/client"
