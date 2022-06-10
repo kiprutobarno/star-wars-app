@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PeopleService } from '../people.service';
-import { Location } from '@angular/common';
+import { NavigationService } from '../navigation.service';
 
 @Component({
   selector: 'app-details',
@@ -15,17 +15,17 @@ export class DetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private service: PeopleService,
-    private location: Location
+    private navigation: NavigationService
   ) {}
 
   async ngOnInit(): Promise<void> {
     this.route.queryParams.subscribe(async (params: any) => {
-      this.search = await this.service.searchPerson(params.name);
+      this.search = await this.service.searchPerson(params.search);
       this.searchresults = this.search.results;
     });
   }
 
-  backClicked() {
-    this.location.back();
+  back(): void {
+    this.navigation.back();
   }
 }

@@ -10,12 +10,14 @@ import { PeopleService } from '../people.service';
 export class HomeComponent implements OnInit {
   people: any = [];
   results: any = [];
-  page: number = 1;
   count: number = 0;
   pageSize: number = 0;
   maxSize: number = 0;
 
   public responsive: boolean = true;
+  config: any;
+  pageIndex = Number(sessionStorage.getItem('currentPage'));
+  page: number = this.pageIndex ? this.pageIndex : 1;
 
   constructor(private service: PeopleService) {
     this.config = {
@@ -24,8 +26,6 @@ export class HomeComponent implements OnInit {
       totalItems: this.count,
     };
   }
-
-  config: any;
 
   async ngOnInit(): Promise<void> {
     await this.updatePeople();
@@ -45,11 +45,11 @@ export class HomeComponent implements OnInit {
     this.count = this.people.count;
     this.pageSize = this.people.results.length;
     this.maxSize = Math.ceil(this.count / this.pageSize);
-    console.log(this.people.count);
   }
 
   async pageChange(event: any) {
     this.config.currentPage = event;
+    sessionStorage.setItem('currentPage', event);
     await this.updatePeople();
   }
 }
