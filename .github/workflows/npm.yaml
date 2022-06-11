@@ -8,7 +8,7 @@ on:
     branches: "main"
 
 jobs:
-  deploy:
+  deployment:
     name: Build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
