@@ -11,6 +11,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,3 +37,10 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: client
+      - uses: onekiloparsec/heroku-node-deploy-subfolder@v1.1.0
+        with:
+          api_key: ${{secrets.HEROKU_API_KEY}}
+          email: ${{secrets.HEROKU_EMAIL}}
+          app_name: star-wars-app
+          heroku_branch: "master"
+          subfolder: "client"
