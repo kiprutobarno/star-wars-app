@@ -1,0 +1,1087 @@
+[33mcommit c226b23db9adbf235102a625897488920a8fdd0f[m[33m ([m[1;36mHEAD -> [m[1;32mch-use-observables[m[33m, [m[1;31morigin/ch-use-observables[m[33m)[m
+Merge: a798baf 9ec3f37
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Thu Jun 16 23:10:54 2022 +0300
+
+    chore
+
+[33mcommit a798baf98fe6ab9cacd3ec4d7dd1c79f59653512[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Thu Jun 16 23:04:05 2022 +0300
+
+    chore(refactor): use Observables
+    
+    - [x] Use observables to pass data
+
+[33mcommit 9ec3f37bdd17cc7f214c98a87748739df2452c4d[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Thu Jun 16 23:04:05 2022 +0300
+
+    chore(refactor): use Observables
+    
+    - [x] Use observables to pass data
+
+[33mcommit fc0bd57eab47a1ff61a4ea5cb15ffbab6284fd4a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Thu Jun 16 11:56:06 2022 +0300
+
+    chore(ci): fix client deployment
+
+[33mcommit a5f834119a20af1ed308a81bfbb743f83d3c0961[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 22:12:23 2022 +0300
+
+    chore
+
+[33mcommit 5fe4c82fad610060bcaeeddd71cfa8f248405039[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 21:58:19 2022 +0300
+
+    chore
+
+[33mcommit 368692b7c56a79b5d859dad6675d4dcf6aa8d915[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 21:19:39 2022 +0300
+
+    chore
+
+[33mcommit 1f2a797fb713a55ab85e9e9accf31221b9b21f09[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 21:14:19 2022 +0300
+
+    chore
+
+[33mcommit f6002f08855ba6aa238beee9347ebce596e90afe[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 21:12:02 2022 +0300
+
+    deploy
+
+[33mcommit 16ce0c03fe32e4fc89e7d366e5f1e54c8820886e[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 21:08:28 2022 +0300
+
+    deploy
+
+[33mcommit c6c91acd3b9df657611d3c09f113fa0ef155d443[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 21:06:40 2022 +0300
+
+    chore
+
+[33mcommit 2aac2681b7967851a776bace655591d593673471[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 20:59:32 2022 +0300
+
+    fixes(devops): automatically deploy client subdir
+
+[33mcommit 5aedf466845817a08a38ce716d379fc21ea6e089[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 20:57:23 2022 +0300
+
+    fixes(devops): automatically deploy client subdir
+
+[33mcommit 65039a006e8125cefb4f6aa7e8968449428d10f0[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 20:56:12 2022 +0300
+
+    fixes(devops): automatically deploy client subdir
+
+[33mcommit 55f0f25ae58e78ed643a2501b5f132c7ded7228c[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 20:54:48 2022 +0300
+
+    fixes(devops): automatically deploy client subdir
+
+[33mcommit 2941da150668ab97a11e8c0126383efa4f938061[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 20:49:43 2022 +0300
+
+    fixes(devops): automatically deploy client subdir
+
+[33mcommit 4df2db16d3d0eb2f2aa2be9edf7c1dc35a369cf9[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 20:26:03 2022 +0300
+
+    chore(devops): automate client subdirectory
+
+[33mcommit 2e96278db7cfecdbe877dc19a81c173d4044eb36[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 11 19:58:41 2022 +0300
+
+    fixes(devops): solve failing tests
+
+[33mcommit 984255b352df453da8ae05323ba6b65e023629b2[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 10 15:34:44 2022 +0300
+
+    chore(navigation): mplement back button
+    
+    - [x] The User should be able to navigate back to the Home page to the previously active People page from the Detail page
+
+[33mcommit 313445d4deddc2101e12e1db9f65a1dea6c7a08c[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 10 10:39:57 2022 +0300
+
+    chore(route): update routes
+    
+    - [x] update route
+
+[33mcommit ff37c91ee2b44085a256a50a67871d490f8e7304[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Thu Jun 9 00:39:12 2022 +0300
+
+    chore(deploment): fix autodeployemt
+    
+    - [x] WIP
+
+[33mcommit 2acf69bd9d51b12fa91557bb967925fda7e91cc5[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Thu Jun 9 00:05:17 2022 +0300
+
+    chore(pagination): optimize pagination
+    
+    - [x] use `ngx-pagination` for pagination
+
+[33mcommit 0e2b6c2094943c9ae5431314e12625613147c786[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Thu Jun 9 00:00:20 2022 +0300
+
+    chore(pagination): optimize pagination
+    
+    - [x] use `ngx-pagination` for angular
+
+[33mcommit c421ca9d2e6f9699f4b469b0c6472f919d7472a7[m
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 19:29:36 2022 +0300
+
+    Update README.md
+
+[33mcommit f6675d8efd3da00acc83671b0879f6b5a3604b68[m
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 19:28:39 2022 +0300
+
+    Update README.md
+
+[33mcommit 914a12c380807cf0679b6463cd36e89c1f38ae56[m
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 19:23:25 2022 +0300
+
+    Create README.md
+
+[33mcommit 3009917226d07449a47e1145dc59ba58ecdd3275[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 17:41:09 2022 +0300
+
+    chore(ci): update github actions
+    
+    - [x] let actions capture pushes and PRs to main branch
+
+[33mcommit dda581b60017533d6459500b42e22c5d3e40340a[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 17:39:24 2022 +0300
+
+    chore(ci): update Github Actions
+    
+    - [x] Let Github Actions
+
+[33mcommit b29853880d4b23052bfbf05378459a3bc47624b2[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 17:30:28 2022 +0300
+
+    fixes(deployment): change angular build flag
+    
+    - [x] WIP
+
+[33mcommit a7185d08a7090671e5d825d89a6b93cec7a26011[m
+Merge: a676306 045a8c8
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 17:18:01 2022 +0300
+
+    Merge pull request #55 from ywalakamar/develop
+    
+    chore(deploy): merge code base back to main branch
+
+[33mcommit 045a8c85a754f21c8234edfa3bfdfd5cba703c31[m[33m ([m[1;31morigin/develop[m[33m)[m
+Merge: 91a4856 135630a
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 16:23:53 2022 +0300
+
+    Merge pull request #54 from ywalakamar/fix-heroku
+    
+    fixes(hosting): create start script at parent dir
+
+[33mcommit 135630a7a59759f7d0510ac4e4ac23a0b78a5afd[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 16:20:00 2022 +0300
+
+    fixes(hosting): create start script at parent dir
+    
+    - [x] WIP
+
+[33mcommit 91a4856d43512e4eb594f2d87a1f904f8bb39b74[m
+Merge: 1c69516 9269697
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 14:28:06 2022 +0300
+
+    Merge pull request #53 from ywalakamar/fix-heroku
+    
+    fixes(deployment): use aot flag
+
+[33mcommit 9269697d937602400d0e5b1454458b4091c51ed2[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 14:24:49 2022 +0300
+
+    fixes(deployment): use aot flag
+    
+    - [x] WIP
+
+[33mcommit 1c6951678970c8ba57f096c26dd875775934c732[m
+Merge: d692b01 3e8bc48
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 14:09:29 2022 +0300
+
+    Merge pull request #52 from ywalakamar/fix-heroku-client-deployment
+    
+    fixes(hosting): use express to fire the app
+
+[33mcommit 3e8bc48f8f827383b6366b7b592b4ea3fdc848e1[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 14:05:34 2022 +0300
+
+    fixes(hosting): use express to fire the app
+    
+    - [x] [Delivers #182385115]
+
+[33mcommit d692b01345e100984bcd33a94b3186533edb2ab1[m
+Merge: c48eb1d 1f06a31
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 10:16:33 2022 +0300
+
+    Merge pull request #49 from ywalakamar/chore-client-heroku-deploy
+    
+    chore(deployment): host client app on heroku
+
+[33mcommit 1f06a31cf22c83ce7cbb012f20ad2c86a8d75000[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 10:11:41 2022 +0300
+
+    chore(deployment): host client app on heroku
+    
+    - [x] [Delivers #182385115]
+
+[33mcommit c48eb1db6a08af34da0dc005196c5ae055771da1[m
+Merge: 43773af 4b702ae
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 04:42:02 2022 +0300
+
+    Merge pull request #48 from ywalakamar/feat-back-navigaion
+    
+    feat(ui): implement back navigation
+
+[33mcommit 4b702ae0ed18b58d5640accf4faaff235f749b2e[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 04:37:03 2022 +0300
+
+    feat(ui): implement back navigation
+    
+    - [x] [Delivers #182383639] on Pivotal Tracker
+
+[33mcommit 43773af97fa5859d38ec1060db56639a6ca7d46b[m
+Merge: f3f2ee2 f0be246
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 02:15:54 2022 +0300
+
+    Merge pull request #47 from ywalakamar/feat-detail-page
+    
+    feat(ui): implement details page
+
+[33mcommit f0be2460e9b76ae6e5a0a06b250a54001328142b[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 02:05:56 2022 +0300
+
+    feat(ui): implement details page
+    
+    - [x] [Delivers #182383532]
+
+[33mcommit f3f2ee27b72e7cd481051b2daacdbdb5322c8fe4[m
+Merge: 7bb1727 2df9578
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Mon Jun 6 00:32:06 2022 +0300
+
+    Merge pull request #46 from ywalakamar/chore-implement-pagination
+    
+    feat(ui): implement pagination
+
+[33mcommit 2df9578ad3ec9b9b6186e4f2849d07b2e0ce24c2[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Mon Jun 6 00:25:11 2022 +0300
+
+    feat(ui): implement pagination
+    
+    - [x] [Delivers #182383308]
+
+[33mcommit 7bb1727cc0307998c3bf870e05c1cdc446d0d351[m
+Merge: ba978bb 658d421
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sun Jun 5 22:21:55 2022 +0300
+
+    Merge pull request #45 from ywalakamar/feat-list-people-homepage
+    
+    feat(chore): list first page on homepage
+
+[33mcommit 658d421fe265d6571da10899045912e53b8d4207[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sun Jun 5 22:16:31 2022 +0300
+
+    feature(home-page): list first page on homepge
+    
+    - [x] [Delivers #182380824]
+
+[33mcommit 91c6626382ee5d2e520d4ce486fc3495a2872ecd[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sun Jun 5 20:04:02 2022 +0300
+
+    feat(home-page):display list of people at homepage
+    
+    - [x] WIP
+
+[33mcommit ba978bb74f966381df70d5f7226a5725dd31dd4d[m
+Merge: 409626a 1f66587
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 20:50:12 2022 +0300
+
+    Merge pull request #44 from ywalakamar/chore-enable-cors-server
+    
+    chore(security): enable CORS in server
+
+[33mcommit 1f6658754e3f963704ccebc09f9a48b98bf2de0d[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 20:46:48 2022 +0300
+
+    chore(security): enable CORS in server
+    
+    - [x] [Delivers #182381181] on Pivotal Tracker
+
+[33mcommit 409626a202bc98e7d7e8b6cdca247378c873d362[m
+Merge: 0f6851b 2caea23
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 18:55:25 2022 +0300
+
+    Merge pull request #43 from ywalakamar/ch-entity-data-modelling
+    
+    chore(entity-models): model entity data
+
+[33mcommit 2caea23b560ac3247e2eeef93aed1d43158d38c0[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 18:50:46 2022 +0300
+
+    chore(entity-models): model entity data
+    
+    - [x] model `People` and `Result` objects
+    - [x] [Delivers #182380630]
+
+[33mcommit 0f6851b4a6ec4163b02bdc91339c6362c90d9f7d[m
+Merge: 3888295 465ed38
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 18:33:06 2022 +0300
+
+    Merge pull request #42 from ywalakamar/chore-add-graphql-service-class
+    
+    chore(service): create graphql service class
+
+[33mcommit 465ed38a644ac1b98e57ea0156c81ba3639a8311[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 18:30:08 2022 +0300
+
+    chore(service): create graphql service class
+    
+    - [x] lint `home.component.html` file
+    - [x] [Delivers #182380597] on Pivotal Tracker
+
+[33mcommit 3888295656c29e3eb47b9b9324f1157333dd3406[m
+Merge: d2ef68c 323da2a
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 18:09:02 2022 +0300
+
+    Merge pull request #41 from ywalakamar/chore-add-home-component
+    
+    chore(component): add Home component
+
+[33mcommit 323da2a8471a7ccb160e92e40d690e11151049b8[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 17:56:45 2022 +0300
+
+    chore(component): add Home component
+    
+    - [x] configure route
+    - [x] [Delivers #182380488] on Pivotal Tracker
+
+[33mcommit d2ef68ca3132c74fc90416b2aa5bc63e3a0180e3[m
+Merge: 7307902 2a0039a
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 17:36:21 2022 +0300
+
+    Merge pull request #40 from ywalakamar/chore-add-navbar-component
+    
+    chore(component): add navbar component
+
+[33mcommit 2a0039ad3f4dc7bfbeab23c95d549c3cd5ca0174[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 17:30:29 2022 +0300
+
+    chore(component): add navbar component
+    
+    - [x] style component with css
+    - [x] [Delivers #182380419] in Pivotal Tracker
+
+[33mcommit 7307902d01bb3edb4ecbde29194a4426ecba22e7[m
+Merge: 3f56e11 1b2653f
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 17:00:35 2022 +0300
+
+    Merge pull request #39 from ywalakamar/chore-intergrate-apollo-graphql-client
+    
+    chore(setup):integrate graphql apollo client
+
+[33mcommit 1b2653f6b598292d086f2666080d0efa6873e8a8[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 16:55:47 2022 +0300
+
+    chore(setup):integrate graphql apollo client
+    
+    - [x] [Delivers #182380393]
+
+[33mcommit 3f56e11508bcd1a9df66aadaab220ce7f030b566[m
+Merge: 4a98fb8 6550135
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 16:19:50 2022 +0300
+
+    Merge pull request #38 from ywalakamar/chore-upgrade-actions
+    
+    chore(ci): upgrade actions
+
+[33mcommit 655013543d906959b1a2ea56eda467a6588d61e8[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 16:16:07 2022 +0300
+
+    chore(ci): upgrade actions
+    
+    -[x] [Finishes #182380362] on Pivotal Tracker
+
+[33mcommit 4a98fb8abc1261d7412d8a4ec1ec43698a35008c[m
+Merge: 1f81592 f9f6fe3
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 16:07:53 2022 +0300
+
+    Merge pull request #37 from ywalakamar/fx-syntax-ci
+    
+    fix(ci): fix node path
+
+[33mcommit f9f6fe3447b45b584e5b0ca0c9abf83b0ec0dda1[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 16:05:12 2022 +0300
+
+    fix(ci): fix node path
+
+[33mcommit 1f81592726c2ac739e7cab8e43a11743e0e0c560[m
+Merge: 42c382e c87e8f5
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 16:03:20 2022 +0300
+
+    Merge pull request #36 from ywalakamar/fix-node-in-ci
+    
+    fix(ci): fix node path
+
+[33mcommit c87e8f57a2a95281c0c96515773e541808930bf4[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 16:01:19 2022 +0300
+
+    fix(ci): fix node path
+
+[33mcommit 42c382e205ca990ab77361f9e2421749925de245[m
+Merge: 36b9966 f4b8dcd
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 15:55:10 2022 +0300
+
+    Merge pull request #35 from ywalakamar/fx-node-path
+    
+    fix(ci): fix node path
+
+[33mcommit f4b8dcdc9b953366ec1cec63e6777c084d7dc0d3[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 15:23:36 2022 +0300
+
+    fix(ci): fix node path
+
+[33mcommit 36b9966ce13b5eecebe14589255b32154578c3b7[m
+Merge: 52b3153 4ebf6ba
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 15:20:14 2022 +0300
+
+    Merge pull request #34 from ywalakamar/fix-ci-file
+    
+    fix(ci): working director
+
+[33mcommit 4ebf6ba037d52c6f6b08e22b50b5b623651aee12[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 15:15:10 2022 +0300
+
+    fix(ci): working director
+
+[33mcommit 52b31537a30a2ba8d9a4e7a073d327b7d17bccce[m
+Merge: a0707e7 5af6a36
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 14:42:47 2022 +0300
+
+    Merge pull request #33 from ywalakamar/fix-ci-node
+    
+    fix(ci): working director
+
+[33mcommit 5af6a363bd3da1936f4b0fa9d680c507a022af1e[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 14:38:31 2022 +0300
+
+    fix(ci): working director
+
+[33mcommit a0707e71a63d60539e8df8777747c8fc0ba4e0f5[m
+Merge: 9902060 8f6cd6f
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 14:02:34 2022 +0300
+
+    Merge pull request #31 from ywalakamar/fix-node-ci
+    
+    fix(ci): overhaul ci file
+
+[33mcommit 8f6cd6f7d17bb165f16b8a6148fb8938c9cd5657[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 13:59:11 2022 +0300
+
+    fix(ci): overhaul ci file
+
+[33mcommit 9902060d2607aa4db158d0267920e44c84ce30c4[m
+Merge: c20d0b2 48d8f46
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 13:50:05 2022 +0300
+
+    Merge pull request #30 from ywalakamar/chore-add-new-ci-config-file
+    
+    chore(ci): add new node CI config file
+
+[33mcommit 48d8f462c5f4a4a6f777de66288f2c054431707d[m
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 13:48:06 2022 +0300
+
+    chore(ci): add new node CI config file
+    
+    - [x] create a new `node.yaml` file
+
+[33mcommit c20d0b283607315b16f72293cb02dc50bcf3733b[m
+Merge: 7ffec5a e789b3e
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 13:25:20 2022 +0300
+
+    Merge pull request #29 from ywalakamar/fix-unvisible-angular-ci
+    
+    fixes(ci): repair invisible ci builds
+
+[33mcommit e789b3e61d8b24768d9d103d12566f4bf3ff7a1c[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 13:21:35 2022 +0300
+
+    fixes(ci): repair invisible ci builds
+    
+    - [x] check errors in `npm.yaml` file
+
+[33mcommit 7ffec5a682ab622cf470622538a4ed80b041d86b[m
+Merge: 89ef636 18774b0
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 13:16:56 2022 +0300
+
+    Merge pull request #28 from ywalakamar/fix-yaml-syntax-error
+    
+    fixes(ci): repair yaml syntax errors
+
+[33mcommit 18774b0b57dec954ba2934e04aa384328856dd62[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 13:09:58 2022 +0300
+
+    fixes(ci): repair yaml syntax errors
+    
+    - [x] fix configuration errors in `npm.yaml`
+
+[33mcommit 89ef636da544129cda7012edfbac918a8c37f720[m
+Merge: 59e400c 5abb13f
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 13:08:02 2022 +0300
+
+    Merge pull request #27 from ywalakamar/chore-test-ci
+    
+    chore(ci): test
+
+[33mcommit 5abb13f9629e42ade1d0c734256bf8728fa08e3d[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 12:50:12 2022 +0300
+
+    chore(ci): test
+
+[33mcommit 59e400cbdbf988569166df77bd1125e6f8e856fe[m
+Merge: 8ae6ba8 46c8518
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 12:30:23 2022 +0300
+
+    Merge pull request #26 from ywalakamar/fix-ci-config-files-extensions
+    
+    fix(ci): repair ci extension files
+
+[33mcommit 46c8518082e665a2bea871307c0fe0b516d986cf[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 12:26:53 2022 +0300
+
+    fix(ci): repair ci extension files
+    
+    - [x] [Delivers #182380246]
+
+[33mcommit 8ae6ba885cd719c6d18564cc60686eda5f4e7772[m
+Merge: 7bc61ad a8b7ab3
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 12:16:54 2022 +0300
+
+    Merge pull request #25 from ywalakamar/chore-merge-workflow
+    
+    chore(ci): merge ci files
+
+[33mcommit a8b7ab3c6d6e76942b3cd4e95d1b501f2380bd1b[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 12:13:54 2022 +0300
+
+    chore(ci): merge ci files
+    
+    - [x] [Delivers #182380242]
+
+[33mcommit 7bc61ad170fe6ead3c4c1f41e1af17ad87a7a424[m
+Merge: c169c5c 8c1621d
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 12:01:30 2022 +0300
+
+    Merge pull request #24 from ywalakamar/fix-ci-runtime-error
+    
+    fixes(ci): solve dependencies errors
+
+[33mcommit 8c1621d05d3882ee7defd1530c698795d12bee78[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 11:53:20 2022 +0300
+
+    fixes(ci): solve dependencies errors
+    
+    - [x] [Delivers #182380238]
+
+[33mcommit c169c5c95ea314a0a79c56ae8ef53efec95cf1c0[m
+Merge: 3e24e5f 1e3a7da
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 11:22:35 2022 +0300
+
+    Merge pull request #23 from ywalakamar/chore-client-ci-setup
+    
+    chore(ci): setup github actions
+
+[33mcommit 1e3a7da48b28eb8d4ab2b9ac9da66e8f0ca64004[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 11:16:09 2022 +0300
+
+    chore(ci): setup github actions
+    
+    - [x] [Closes #182379754]
+
+[33mcommit 3e24e5f64217b99063b4e958db7c27488af5292d[m
+Merge: e8d2001 5a6c0a9
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 10:40:09 2022 +0300
+
+    Merge pull request #22 from ywalakamar/chore-lint-setup
+    
+    chore(lint): lint setup files
+
+[33mcommit 5a6c0a9fabdd01f87633ebf8b3cec30cfcafc384[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 10:36:25 2022 +0300
+
+    chore(lint): lint setup files
+    
+    - [x] properly format `tsconfig.json`
+
+[33mcommit e8d2001f0c0aac6f8fd25ebd5a39829ed78c7541[m
+Merge: 923e5b5 49023d9
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 10:13:02 2022 +0300
+
+    Merge pull request #21 from ywalakamar/chore-client-project-setup
+    
+    chore(setup): angular project repositories
+
+[33mcommit 49023d9c49821633d7c384002522dd550d7e8c1a[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 10:02:35 2022 +0300
+
+    chore(setup): angular project repositories
+    
+    - [x] [Finishes #182379508]
+
+[33mcommit 923e5b53e2a304301684781c515b328a8ad5b585[m
+Merge: 79c41f8 5c5047c
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 01:58:03 2022 +0300
+
+    Merge pull request #20 from ywalakamar/fix-procfile
+    
+    fix(deployment): reference build directories well
+
+[33mcommit 5c5047c0f5d99630b778d99027256ad224e820e6[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 01:49:49 2022 +0300
+
+    fix(deployment): reference build directories well
+    
+    - [x] [Closes #182378683] in pivotal tracker
+
+[33mcommit 79c41f8d9b315fe6dbc326b3e7645268ce37e06d[m
+Merge: 8b8dbc2 59b7b66
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 01:28:07 2022 +0300
+
+    Merge pull request #19 from ywalakamar/chor-add-procfile
+    
+    chore(deployment): create Heroku configurations
+
+[33mcommit 59b7b66c5a375054ff51c89beeb7f3186eaf2a4d[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 01:15:53 2022 +0300
+
+    chore(deployment): create Heroku configurations
+    
+    - [x] [Delivers #182378568] on Pivotal Tracker
+
+[33mcommit 8b8dbc2c33d9bfaba3111f3b70ad1756b5e97ce8[m
+Merge: 25a8355 1f4da60
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 00:43:32 2022 +0300
+
+    Merge pull request #18 from ywalakamar/fix-runtime-environment
+    
+    fixes(runtime): reconfigure java version
+
+[33mcommit 1f4da600a8162dbca76de15d4ebebf4e77808443[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 00:36:06 2022 +0300
+
+    fixes(runtime): reconfigure java version
+    
+    - [x] add the recommended java version ```17.0.3```
+
+[33mcommit 25a8355bbea2a761ed4f9693acb067089001ac80[m
+Merge: 3c09f65 2dd3fc8
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 00:34:00 2022 +0300
+
+    Merge pull request #17 from ywalakamar/fix-java-version
+    
+    fixes(runtime): configure java runtime
+
+[33mcommit 2dd3fc89b9d795c2f1fb52436793e254e68b5ce5[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Sat Jun 4 00:18:06 2022 +0300
+
+    fixes(runtime): configure java runtime
+    
+    - [x] [Delivers #182378098]
+
+[33mcommit 3c09f65abc3415e3be2a4dcebba2a0c5307b1763[m
+Merge: 9a6579e e817b84
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Sat Jun 4 00:05:12 2022 +0300
+
+    Merge pull request #16 from ywalakamar/fix-ci-yml-file
+    
+    fixes(configuration): repair broken ci/cd file
+
+[33mcommit e817b8479d3ffdf804bf9e78b259c2621bc7b8da[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 23:46:58 2022 +0300
+
+    fixes(configuration): repair broken ci/cd file
+    
+    - [x] [Closes #182377907]
+
+[33mcommit 9a6579e48f9ac8ca1663b1438e836aa2e26d1993[m
+Merge: c1037c1 e23874d
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 23:38:05 2022 +0300
+
+    Merge pull request #15 from ywalakamar/chore-deploy-to-heroku
+    
+    chore(deployment): deploy to Heroku
+
+[33mcommit e23874da07b288d54e0441f630b4bdf568263ee8[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 23:32:53 2022 +0300
+
+    chore(deployment): deploy to Heroku
+    
+    - [x] [Closes #182377678] on Pivotal Tracker
+
+[33mcommit c1037c1dc99742e242a7e2809ad37c9b0d2fef7a[m
+Merge: dcceb3d ef7b418
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 21:55:49 2022 +0300
+
+    Merge pull request #14 from ywalakamar/chore-run-tests-ci
+    
+    chore(tests): run unit tests in CI
+
+[33mcommit ef7b4187e576e468a727d6c4a31adc82f48eeb75[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 21:49:41 2022 +0300
+
+    chore(tests): run unit tests in CI
+    
+    - [x] [Closes #182376895] in Pivotal Tracker
+
+[33mcommit dcceb3d068a48df6c4567e81c8d7ee56a005f79d[m
+Merge: 6fae950 1800c14
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 21:38:05 2022 +0300
+
+    Merge pull request #13 from ywalakamar/fix-schema-model-datatype-conflicts
+    
+    fixes(datatype): use same datatypes model/schema
+
+[33mcommit 1800c14133f1dd6f920ce1158d9eced6ca1a270c[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 21:34:31 2022 +0300
+
+    fixes(datatype): use same datatypes model/schema
+    
+    - [x] [Closes #182376666] in Pivotal Tracker
+
+[33mcommit 6fae9504088810695660019b871119f893fd5e8c[m
+Merge: 94bd100 bd014b1
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 21:15:32 2022 +0300
+
+    Merge pull request #12 from ywalakamar/chore-graphql-api-unit-tests
+    
+    chore(tests): unit tests
+
+[33mcommit bd014b17e919966ebfedc1f16ff156e92b792b3d[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 21:03:10 2022 +0300
+
+    chore(tests): unit tests
+    
+    - [x] write tests for `getAllPeople`
+    - [x] write tests for `getPeoplePerPage`
+    - [x] write tests for `getPeopleByName`
+    - [x] [Closes #182374635] on Pivotal Tracker
+
+[33mcommit 94bd10098527b9e8d351b708795c1c7ebbcd64c4[m
+Merge: d4c2959 6b75e2c
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 18:00:50 2022 +0300
+
+    Merge pull request #11 from ywalakamar/feat-search-person-by-name
+    
+    feat(search): retrieve people details by name
+
+[33mcommit 6b75e2c7f82d804d7169bc73bea160e817d254e8[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 17:56:20 2022 +0300
+
+    feat(search): retrieve people details by name
+    
+    - [x] [Finishes #182374179] on pivotal Tracker
+
+[33mcommit d4c295946ddf9047d6ed43fbb188ea1afcf18a4d[m
+Merge: db57ffa 144647c
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 17:37:31 2022 +0300
+
+    Merge pull request #10 from ywalakamar/feat-pagination
+    
+    feat(pagination): get people per page
+
+[33mcommit 144647cd9ddc0d4040154fba0494fdef174d348f[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 17:34:10 2022 +0300
+
+    feat(pagination): get people per page
+    
+    - [x] [Finishes #182373459]
+
+[33mcommit db57ffae8b3f48be4cfd32f8d46430861cd7c1d1[m
+Merge: b3d923b 7bf5e36
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 17:09:36 2022 +0300
+
+    Merge pull request #9 from ywalakamar/fixes-all-people-service-methods-and-query
+    
+    fixes(service): refactor method and query argument
+
+[33mcommit 7bf5e36676f43e81d1a7dfb9a62a6213cb63b41f[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 17:02:47 2022 +0300
+
+    fixes(service): refactor method and query argument
+    
+    - [x] Refactor query
+    - [x] [Delivers #182373611]
+
+[33mcommit b3d923bba8d472e4351441a2818fcf84fd83fcc1[m
+Merge: 8e3ab20 4808397
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 16:32:55 2022 +0300
+
+    Merge pull request #8 from ywalakamar/fix-failing-builds-ci
+    
+    fixes(test): use JUnit Jupiter as default library
+
+[33mcommit 48083977a3704df61c4954e12012540b0ef75d84[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 16:26:11 2022 +0300
+
+    fixes(test): use JUnit Jupiter as default library
+    
+    - [x] use Jupiter as default test library
+    - [x] [Delivers #182373287]
+
+[33mcommit 8e3ab20673e1384be5f5e0be6fc94a2cb9993ccc[m
+Merge: 6f05341 2822a8c
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 16:17:05 2022 +0300
+
+    Merge pull request #7 from ywalakamar/feat-resolve-people
+    
+    feat(resolvers): create query resolver
+
+[33mcommit 2822a8c9b1b47a447b78f2879c95ba26b3f7fdb0[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 16:00:14 2022 +0300
+
+    feat(resolvers): create query resolver
+    
+    - [x] [Delivers #182373112]
+
+[33mcommit 6f05341c9c79d62effb17c8269be8edd8f810dd5[m
+Merge: d9f6158 316d39f
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 15:44:36 2022 +0300
+
+    Merge pull request #6 from ywalakamar/chore-add-service-layer
+    
+    chore(service): model objects/add service layer
+
+[33mcommit 316d39f426d8119de41931c76dc77ab97c91da76[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 15:35:42 2022 +0300
+
+    chore(service): model objects/add service layer
+    
+    - [x] model `People` and `Result` objects
+    - [x] create service layer that consumes the exposed API
+    - [x] [finishes #182370833] on Pivotal Tracker
+
+[33mcommit d9f615887b35e3d4c8b8ddc7c63b41b8b14a8a45[m
+Merge: 1629570 07b585d
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 15:22:59 2022 +0300
+
+    Merge pull request #5 from ywalakamar/chore-rest-to-graphql
+    
+    chore(wrapping): transform REST API to GraphQL API
+
+[33mcommit 07b585dad7679a99bc4ab3fa0290f681f19cc4d2[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 15:13:37 2022 +0300
+
+    chore(wrapping): transform REST API to GraphQL API
+    
+    - [x] use Spring's `RestTemplate` to consume the given REST API
+    - [x]
+
+[33mcommit 1629570b4af3720172c9f28fef048af0778f7340[m
+Merge: c15ef21 ef17031
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 10:27:17 2022 +0300
+
+    Merge pull request #4 from ywalakamar/chore-setup-graphql-schema
+    
+    chore(schema): create graphql schema file
+
+[33mcommit ef17031e5ffab9be887ed07294535237d54b28ba[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 10:22:39 2022 +0300
+
+    chore(schema): create graphql schema file
+    
+    - add `schema.xml`
+    - lint `pom.xml files`
+    - [finishes #182370694]
+
+[33mcommit c15ef2184f2959a60c17a8a9ca3db8c232e47185[m
+Merge: f08059d e2d2bfc
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 10:10:44 2022 +0300
+
+    Merge pull request #3 from ywalakamar/fix-ci
+    
+    fixes(ci): CI on push to branch
+
+[33mcommit e2d2bfcbd19e264082bc91fe32eb40878a14de2d[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 10:07:36 2022 +0300
+
+    fixes(ci): CI on push to branch
+    
+    - [x] ensure CI on push to develop branch
+    - [x] [finishes #182370608] on pivotal tracker
+
+[33mcommit f08059d30cac638eda0c22cad52fc06e41544e47[m
+Merge: 04de8a2 9492a50
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 09:59:02 2022 +0300
+
+    Merge pull request #2 from ywalakamar/chore-setup-ci
+    
+    chore(setup): configure CI using Github Actions
+
+[33mcommit 9492a50193b249cd08be6e25bc4cee753c423725[m
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 09:57:49 2022 +0300
+
+    chore(setup): configure CI using Github Actions
+    
+    - [x] [finishes #182370499]
+
+[33mcommit 04de8a2d825ddeb0cd5626650ebc9f7c283f9724[m
+Merge: a676306 f11349d
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 09:48:03 2022 +0300
+
+    Merge pull request #1 from ywalakamar/ch-project-repo-setup
+    
+    chore(setup): project repository setup
+
+[33mcommit f11349defd6f8bf64fd8aeab794dd1a7cbcae72a[m
+Author: ywalakamar <barxwells@gmail.com>
+Date:   Fri Jun 3 09:41:44 2022 +0300
+
+    chore(setup): project repository setup
+    
+    - [x] create project directories
+    - [x] add project dependencies and configuration files
+    - [x] [finishes #182370002]
+
+[33mcommit a676306c96e3fc80516dfcb680c535e604a30e05[m
+Author: Kipruto Barno <barxwells@gmail.com>
+Date:   Fri Jun 3 09:03:06 2022 +0300
+
+    Initial commit
