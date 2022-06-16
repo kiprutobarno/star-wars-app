@@ -36,8 +36,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: client
-      - name: Deploy
-        run: git subtree push --prefix client https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP}}.git main
+      # - name: Deploy
+      #   run: git subtree push --prefix client https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP}}.git main
       # - uses: onekiloparsec/heroku-node-deploy-subfolder@v1.1.0
       #   with:
       #     api_key: ${{secrets.HEROKU_API_KEY}}
