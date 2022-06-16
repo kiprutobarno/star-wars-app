@@ -39,7 +39,7 @@ The appliction can be accessed via [Star Wars](https://star-wars-client-app.hero
 ## Demos
 - Launch terminal in your computer
 - Create a new folder and give it a name of your choice: ```mkdir XXXX```
-- Navigate to the new folder: ```cd XXXX`
+- Navigate to the new folder: ```cd XXXX```
 - Clone the github repository: ```git clone https://github.com/ywalakamar/star-wars-app.git```
 - Navigate to the cloned repository: ```cd star-wars-app```
 
