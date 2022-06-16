@@ -11,7 +11,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let result of results | paginate: config">
+      <tr
+        *ngFor="
+          let result of results
+            | paginate
+              : { itemsPerPage: pageSize, currentPage: page, totalItems: count }
+        "
+      >
         <td>
           <a
             [routerLink]="['/details']"

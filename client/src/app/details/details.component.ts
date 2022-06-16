@@ -18,10 +18,12 @@ export class DetailsComponent implements OnInit {
     private navigation: NavigationService
   ) {}
 
-  async ngOnInit(): Promise<void> {
-    this.route.queryParams.subscribe(async (params: any) => {
-      this.search = await this.service.searchPerson(params.search);
-      this.searchresults = this.search.results;
+  ngOnInit(): void {
+    this.route.queryParams.subscribe((params: any) => {
+      this.service.searchPerson(params.search).subscribe((response) => {
+        this.search = response.data.getPeopleByName;
+        this.searchresults = this.search.results;
+      });
     });
   }
 

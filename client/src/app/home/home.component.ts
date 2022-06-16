@@ -19,37 +19,28 @@ export class HomeComponent implements OnInit {
   pageIndex = Number(sessionStorage.getItem('currentPage'));
   page: number = this.pageIndex ? this.pageIndex : 1;
 
-  constructor(private service: PeopleService) {
-    this.config = {
-      itemsPerPage: this.pageSize,
-      currentPage: this.page,
-      totalItems: this.count,
-    };
-  }
+  constructor(private service: PeopleService) {}
 
-  async ngOnInit(): Promise<void> {
-    await this.updatePeople();
-    this.config = {
-      itemsPerPage: this.pageSize,
-      currentPage: this.page,
-      totalItems: this.count,
-    };
+  ngOnInit(): void {
+    this.updatePeople();
   }
 
   /**
    * update people's result data on the table
    */
-  async updatePeople() {
-    this.people = await this.service.getPaginatedPages(this.config.currentPage);
-    this.results = this.people.results;
-    this.count = this.people.count;
-    this.pageSize = this.people.results.length;
-    this.maxSize = Math.ceil(this.count / this.pageSize);
+  updatePeople() {
+    this.service.getPeople(this.page).subscribe((response) => {
+      this.people = response.data.getPeoplePerPage;
+      this.results = this.people.results;
+      this.count = this.people.count;
+      this.pageSize = this.people.results.length;
+      this.maxSize = Math.ceil(this.count / this.pageSize);
+    });
   }
 
-  async pageChange(event: any) {
-    this.config.currentPage = event;
+  pageChange(event: any) {
+    this.page = event;
     sessionStorage.setItem('currentPage', event);
-    await this.updatePeople();
+    this.updatePeople();
   }
 }
